@@ -482,7 +482,6 @@ export function selectAIMove(
     return allMoves[Math.floor(Math.random() * allMoves.length)];
   }
 
-  // For medium and hard, prefer capturing moves
   const capturingMoves = allMoves.filter((move) => move.captured);
   if (
     capturingMoves.length > 0 &&
