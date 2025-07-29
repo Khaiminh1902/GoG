@@ -19,8 +19,8 @@ const boardGames: BoardGame[] = [
     players: "2 Players",
     difficulty: "Intermediate",
     estimatedTime: "30-60 min",
-    origin: "Ancient India",
-    icon: "♔",
+    origin: "Ancient India ",
+    icon: "♔ ",
   },
   {
     id: "chinese-chess",
@@ -46,7 +46,7 @@ const boardGames: BoardGame[] = [
     players: "2 Players",
     difficulty: "Master",
     estimatedTime: "60-180 min",
-    origin: "Ancient China",
+    origin: "Ancient China ",
     icon: "○",
   },
   {
